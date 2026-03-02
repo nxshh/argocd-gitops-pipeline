@@ -2,7 +2,7 @@ const http = require('http');
 
 const server = http.createServer((req, res) => {
   res.writeHead(200);
-  res.end("Version 1 - GitOps Demo");
+  res.end("Version 2 - GitOps Demo App");
 });
 
 server.listen(3000, () => {
